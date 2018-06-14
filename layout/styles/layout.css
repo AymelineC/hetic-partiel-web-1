@@ -49,6 +49,7 @@
 			padding: 0;
 			font-size: 22px;
 			text-transform: uppercase;
+			text-align: center;
 		}
 
 
@@ -56,6 +57,7 @@
 
 		#pageintro {
 			padding: 180px 0;
+
 		}
 
 		#pageintro article {
@@ -79,6 +81,10 @@
 
 		#pageintro footer {
 			margin-top: 50px;
+		}
+
+		#pageintro .nospace inline pushright {
+			display: flex;
 		}
 
 
@@ -974,7 +980,6 @@
 		#header #logo a {
 			color: inherit;
 		}
-
 
 		/* Page Intro */
 
