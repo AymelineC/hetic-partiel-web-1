@@ -1305,9 +1305,46 @@
 			.cta> :first-child {
 				margin-top: 0;
 			}
+
+		/* burger --------------------------------------------------------------------------------------------------------------- */
+
+		.burger {
+		  position: fixed;
+		  left: 20px;
+		  top: 20px;
+		  height: max-content;
+		  width: max-content;
 		}
 
+		.burger-line {
+		  width: 20px;
+		  height: 1px;
+		  background-color: #D7D7D7;
+		  margin-bottom: 5px;
+		}
 
+		/* cross --------------------------------------------------------------------------------------------------------------- */
+
+		.cross {
+		  display: none;
+		  position: fixed;
+		  left: 20px;
+		  top: 25px;
+		  height: max-content;
+		  width: max-content;
+		}
+
+		.cross-line {
+		  width: 20px;
+		  height: 1px;
+		  background-color: #D7D7D7;
+		  transform: rotate(45deg);
+		}
+
+		.cross-line:first-child {
+		  transform: rotate(-45deg);
+		}
+	}
 		/* Other --------------------------------------------------------------------------------------------------------------- */
 
 		@media screen and (max-width:650px) {
